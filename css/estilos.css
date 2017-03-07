@@ -1,3 +1,5 @@
+/* --------Estilos generales--------*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -14,15 +16,17 @@ body {
 	background-repeat: repeat;
  }
 
+ /* --------Caja contador--------*/
+
  .container{
  	background: rgba(76,76,76,1);
-background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(3%, rgba(89,89,89,0.97)), color-stop(22%, rgba(61,61,61,0.78)), color-stop(28%, rgba(71,71,71,0.73)), color-stop(51%, rgba(0,0,0,0.5)), color-stop(60%, rgba(17,17,17,0.41)), color-stop(73%, rgba(44,44,44,0.28)), color-stop(76%, rgba(43,43,43,0.26)), color-stop(91%, rgba(28,28,28,0.11)), color-stop(100%, rgba(19,19,19,0.02)));
-background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
-background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
-background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
-background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 ); 
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(3%, rgba(89,89,89,0.97)), color-stop(22%, rgba(61,61,61,0.78)), color-stop(28%, rgba(71,71,71,0.73)), color-stop(51%, rgba(0,0,0,0.5)), color-stop(60%, rgba(17,17,17,0.41)), color-stop(73%, rgba(44,44,44,0.28)), color-stop(76%, rgba(43,43,43,0.26)), color-stop(91%, rgba(28,28,28,0.11)), color-stop(100%, rgba(19,19,19,0.02)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 3%, rgba(61,61,61,0.78) 22%, rgba(71,71,71,0.73) 28%, rgba(0,0,0,0.5) 51%, rgba(17,17,17,0.41) 60%, rgba(44,44,44,0.28) 73%, rgba(43,43,43,0.26) 76%, rgba(28,28,28,0.11) 91%, rgba(19,19,19,0.02) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 ); 
  	padding: 10px;
  	display: block;
 	box-shadow: 2px 2px 15px #fff;
@@ -39,6 +43,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
  .caja{
  	font-size: 160px;
  }
+
+/* --------Footer--------*/
 
  footer{
  	color: #fff;
